@@ -797,12 +797,12 @@ namespace Intersect.Client.Entities
 
             if (Controls.KeyDown(Control.MoveLeft))
             {
-                movex = -1;
+                movex = 1;
             }
 
             if (Controls.KeyDown(Control.MoveRight))
             {
-                movex = 1;
+                movex = -1;
             }
 
             Globals.Me.MoveDir = -1;
