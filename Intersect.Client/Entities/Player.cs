@@ -787,12 +787,12 @@ namespace Intersect.Client.Entities
 
             if (Controls.KeyDown(Control.MoveUp))
             {
-                movey = 1;
+                movey = -1;
             }
 
             if (Controls.KeyDown(Control.MoveDown))
             {
-                movey = -1;
+                movey = 1;
             }
 
             if (Controls.KeyDown(Control.MoveLeft))
